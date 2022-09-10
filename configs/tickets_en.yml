@@ -103,6 +103,7 @@ antispam:
   max_tickets_per_user: 1
 
 staffRol: "991931583219118121"
+adminRol: ""
 parentId: "998732404061638766"
 
 messages:
