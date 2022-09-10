@@ -40,6 +40,8 @@ menu:
       shortName: "faq"
       emoji: "❔"
       description: "Para resolver tus dudas respecto al servidor."
+      rise_roles:
+        - "1"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -49,6 +51,8 @@ menu:
       shortName: "reportes"
       emoji: "🚫"
       description: "Descripción."
+      rise_roles:
+        - "1"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -58,6 +62,8 @@ menu:
       shortName: "regalos"
       emoji: "🎁"
       description: "Descripción."
+      rise_roles:
+        - "1"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -67,6 +73,8 @@ menu:
       shortName: "negocios"
       emoji: "👜"
       description: "Descripción.."
+      rise_roles:
+        - "1"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -76,6 +84,8 @@ menu:
       shortName: "social"
       emoji: "🌐"
       description: "Descripción.."
+      rise_roles:
+        - "1"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -85,6 +95,8 @@ menu:
       shortName: "staff"
       emoji: "🔓"
       description: "Descripción..."
+      rise_roles:
+        - "1"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -94,6 +106,8 @@ menu:
       shortName: "dev"
       emoji: "💻"
       description: "Descripción..."
+      rise_roles:
+        - "1"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -103,7 +117,6 @@ antispam:
   max_tickets_per_user: 1
 
 staffRol: "660260944882040853"
-adminRol: ""
 parentId: "998732499976990840"
 
 messages:
