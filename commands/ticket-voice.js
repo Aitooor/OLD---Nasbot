@@ -40,7 +40,11 @@ module.exports = {
                     allow: [PermissionsBitField.Flags.Connect],
                 },
                 {
-                    id: config.tickets_voice.staffRolId,
+                    id: config.tickets_voice.staffESRolId,
+                    allow: [PermissionsBitField.Flags.Connect],
+                },
+                {
+                    id: config.tickets_voice.staffENRolId,
                     allow: [PermissionsBitField.Flags.Connect],
                 }
             ]
