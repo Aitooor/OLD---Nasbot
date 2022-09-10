@@ -40,6 +40,8 @@ menu:
       shortName: "faq"
       emoji: "❔"
       description: "Description."
+      rise_roles:
+        - "1"
       embed:
         title: "Welcome to your ticket"
         description: "Tell us your problem"
@@ -49,6 +51,8 @@ menu:
       shortName: "reports"
       emoji: "🚫"
       description: "Description."
+      rise_roles:
+        - "1"
       embed:
         title: "Welcome to your ticket"
         description: "Tell us your problem"
@@ -58,6 +62,8 @@ menu:
       shortName: "gifts"
       emoji: "🎁"
       description: "Description."
+      rise_roles:
+        - "1"
       embed:
         title: "Welcome to your ticket"
         description: "Tell us your problem"
@@ -67,6 +73,8 @@ menu:
       shortName: "business"
       emoji: "👜"
       description: "Description."
+      rise_roles:
+        - "1"
       embed:
         title: "Welcome to your ticket"
         description: "Tell us your problem"
@@ -76,6 +84,8 @@ menu:
       shortName: "social"
       emoji: "🌐"
       description: "Description."
+      rise_roles:
+        - "1"
       embed:
         title: "Welcome to your ticket"
         description: "Tell us your problem"
@@ -85,6 +95,8 @@ menu:
       shortName: "staff"
       emoji: "🔓"
       description: "Description."
+      rise_roles:
+        - "1"
       embed:
         title: "Welcome to your ticket"
         description: "Tell us your problem"
@@ -94,6 +106,8 @@ menu:
       shortName: "dev"
       emoji: "💻"
       description: "Description."
+      rise_roles:
+        - "1"
       embed:
         title: "Welcome to your ticket"
         description: "Tell us your problem"
@@ -103,7 +117,6 @@ antispam:
   max_tickets_per_user: 1
 
 staffRol: "991931583219118121"
-adminRol: ""
 parentId: "998732404061638766"
 
 messages:
