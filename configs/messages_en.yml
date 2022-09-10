@@ -184,3 +184,9 @@ poll:
       value: "%2%"
       inline: false
   color: 16101959
+rise:
+  description: "The ticket is now admin-only"
+  color: 16101959
+alr_rise:
+  description: "The ticket is already admin-only"
+  color: 16101959
