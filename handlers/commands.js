@@ -24,7 +24,7 @@ client.on("interactionCreate", async interaction => {
             b: "An error has ocurred while trying to execute this command, please ask a server admin to check the console."
         }
 
-        if(!interaction.member.roles.cache.has(config.commands[interaction.commandName].rol)) {
+        if(!config.commands[interaction.commandName].rol.some(rol => interaction.member.roles.cache.has(rol))) {
             return await interaction.reply({
                 embeds: [
                     emb.a
