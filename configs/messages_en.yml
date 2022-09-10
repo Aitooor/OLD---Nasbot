@@ -190,3 +190,9 @@ rise:
 alr_rise:
   description: "The ticket is already admin-only"
   color: 16101959
+decrease:
+  description: "The ticket has been decreased"
+  color: 16101959
+alr_decrease:
+  description: "There is nothing to decrease"
+  color: 16101959
