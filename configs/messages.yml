@@ -187,3 +187,9 @@ poll:
       value: "%2%"
       inline: false
   color: 16101959
+rise:
+  description: "El ticket fue subido a los administradores"
+  color: 16101959
+alr_rise:
+  description: "El ticket ya está visible a los administradores solo"
+  color: 16101959
