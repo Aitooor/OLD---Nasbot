@@ -143,6 +143,7 @@ module.exports = async (client, interaction, language) => {
                     channelName: channel.name,
                     users: [ interaction.member.id ],
                     isClosed: false,
+                    category: interaction.values[0],
                     staffCalled: false
                 }
             )
