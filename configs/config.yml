@@ -1,0 +1,255 @@
+
+#ID del servidor
+serverId: "921445728189030401"
+
+#Token del bot
+token: "TOKEN"
+
+announce:
+#Canal de anuncios en español
+  es: "1016023164754608188"
+#Canal de anuncios en inglés
+  en: "1016023164754608188"
+
+poll:
+#Canal de encuestas en español
+  es: "1016023164754608188"
+#Canal de encuestas en inglés
+  en: "1016023164754608188"
+
+lock_unlock:
+#Roles que se les quita/agrega permiso de hablar
+  roles:
+    - "1004380482168963195"
+    - "949663852902113360"
+
+report:
+#Canal donde llegan los reportes
+  report_channel: "1016023164754608188"
+#Canal donde llegan los reportes de bugs
+  reportbug_channel: "1016023164754608188"
+
+status:
+#API de la cual se obtienen los datos del estado
+  api: "https://api.mcsrvstat.us/2/IP_SERVIDOR"
+  offline: "El servidor está apagado"
+
+giveaways:
+#Sorteos
+  reaction: "🎉"
+  embed:
+    content: "🎉**SORTEO INICIADO** 🎉"
+    reacciona: "¡Reacciona con 🎉 para participar!"
+    ends: "Acaba {timestamp}"
+    hostedby: "Iniciado por: {this.hostedBy}"
+    footer: "{this.winnerCount} ganador(es)"
+    color: "#FF0000"
+
+  embedend:
+    content: "🎉 **SORTEO ACABADO** 🎉"
+    winners: "Ganador(es)\n"
+    time: "Acabado"
+    color: "#FF0000"
+
+  messages:
+    winners: "🎉 **¡Felicidades!** 🎉\nLos ganador(es) del sorteo fue(ron): {winners}\nHa(n) ganado: **{this.prize}**"
+    cancelled: "¡No entraron suficientes participantes al sorteo, se canceló el sorteo!"
+    reroll: "🎉 **Nuevo(s) ganador(es):** 🎉\n{winners}\nFelicidades, ha(n) ganado: **{this.prize}**\n{this.messageURL}"
+    notenoughmembers: "🚫 No hubieron participantes suficientes para re-sortear."
+
+sugerenciasEs:
+#Canal(es) de sugerencias en español
+  channels:
+    - "101609980asd0405516399"
+#Canal donde se envian las sugerencias a revision
+  review_channel: "1016023164754608188"
+#Canal donde se envian las sugerencias aceptadas
+  accepted_channel: "1016023164754608188"
+#Reacciones
+  reactions:
+    up: "✅"
+    down: "❌"
+#Cantidad de votos que debe tener la sugerencia antes de ser enviada a revisión
+  votes_until_review: 1
+
+sugerenciasEn:
+#Lo de arriba pero en inglés
+  channels:
+    - "10160231asd64754608188"
+  review_channel: "1016023164754608188"
+  accepted_channel: "1016023164754608188"
+  reactions:
+    up: "✅"
+    down: "❌"
+  votes_until_review: 1
+
+
+verificacion:
+#Rol ESPAÑOL
+  en_rol: "1002970865585094706"
+#Rol INGLÉS
+  es_rol: "1002970880802045983"
+#Rol(es) Verificado
+  verified_roles:
+    - "949663853711622164"
+#Botones
+  button_es:
+    label: "Español"
+#Colores:
+# 1 -> Azul
+# 2 -> Gris
+# 3 -> Verde
+# 4 -> Rojo
+    color: 2
+  button_en:
+    label: "English"
+    color: 2
+  button_esn:
+    label: "Español / English"
+    color: 2
+  button_verify:
+    label: "Verificar"
+    color: 3
+    emoji: "✅"
+
+
+tickets_voice:
+#Rol del staff (se le daran permisos de unirse)
+  staffRolId: "1002970880802045983"
+#Categoria donde se crean los tickets de voz
+  parentId: "949663853669654549"
+#Limite de usuarios del canal de voz
+  userlimit: 3
+
+commands:
+  say:
+#Descripción del comando en español
+    es: "Haz que el bot diga lo que quieras."
+#Descripción del comando en inglés
+    en: "Make the bot say something"
+#Rol requerido para usar el comando
+    rol: "921445728189030401"
+  avatar:
+    es: "Muestra tu avatar o el de otro usuario."
+    en: "Shows your or another user 's avatar"
+    rol: "921445728189030401"
+  addrole:
+    es: "Agrega un rol a un usuario."
+    en: "Adds a rol to an user"
+    rol: "921445728189030401"
+  announce:
+    es: "Envía un anuncio a ambos canales."
+    en: "Sends an announce"
+    rol: "921445728189030401"
+  info:
+    es: "Muestra información del servidor."
+    en: "Shows server info"
+    rol: "921445728189030401"
+  ip:
+    es: "Muestra la IP del servidor."
+    en: "Shows server's ip"
+    rol: "921445728189030401"
+  invite:
+    es: "Muestra la invitación al discord."
+    en: "Shows the discord invite"
+    rol: "921445728189030401"
+  nick:
+    es: "Modifica el nickname de un usuario."
+    en: "Modifies the nickname of an user"
+    rol: "921445728189030401"
+  num:
+    es: "Selecciona un número al azar."
+    en: "Selects a random number"
+    rol: "921445728189030401"
+  removerole:
+    es: "Remueve un rol de un usuario"
+    en: "Removes a rol from an user"
+    rol: "921445728189030401"
+  purge:
+    es: "Elimina una cantidad de mensajes de un canal"
+    en: "Deletes some messages on the channel"
+    rol: "921445728189030401"
+  setdelay:
+    es: "Establece el slowmode en un canal"
+    en: "Set the slowmode time on a channel"
+    rol: "921445728189030401"
+  flipcoin:
+    es: "Obtiene un resultado aleatorio entre cara y cruz"
+    en: "Face or cross"
+    rol: "921445728189030401"
+  banlist:
+    es: "Muestra la lista de baneos"
+    en: "Shows ban list"
+    rol: "921445728189030401"
+  lock:
+    es: "Bloquea el canal a usuarios."
+    en: "Lock the channel for normal users"
+    rol: "921445728189030401"
+  unlock:
+    es: "Des-Bloquea el canal a usuarios"
+    en: "Unlock the channel for normal users"
+    rol: "921445728189030401"
+  report:
+    es: "Reporta a un usuario"
+    en: "Report an user"
+    rol: "921445728189030401"
+  reportbug:
+    es: "Reporta un bug"
+    en: "Alerts staffs about a bug"
+    rol: "921445728189030401"
+  status:
+    es: "Muestra los jugadores online en un servidor"
+    en: "Shows the number of online players"
+    rol: "921445728189030401"
+  ban:
+    es: "Banea a un usuario"
+    en: "Ban an user"
+    rol: "921445728189030401"
+  unban:
+    es: "Des-Banea a un usuario"
+    en: "Unban an user"
+    rol: "921445728189030401"
+  kick:
+    es: "Kickea a un usuario del servidor"
+    en: "Kick an user"
+    rol: "921445728189030401"
+  mute:
+    es: "Silencia a un usuario"
+    en: "Mute an user"
+    rol: "921445728189030401"
+  unmute:
+    es: "Remueve el silencio de un usuario"
+    en: "Unmute an user"
+    rol: "921445728189030401"
+  giveaway_start:
+    es: "Inicia un sorteo"
+    en: "Starts a giveaway"
+    rol: "921445728189030401"
+  giveaway_end:
+    es: "Acaba un sorteo"
+    en: "Forcibbly ends a giveaway"
+    rol: "921445728189030401"
+  giveaway_reroll:
+    es: "Elige nuevos ganadores para un sorteo"
+    en: "Randomly choose new winners"
+    rol: "921445728189030401"
+  accept:
+    es: "Acepta una sugerencia"
+    en: "Accept a suggestion"
+    rol: "921445728189030401"
+  panel:
+    es: "Mensajes de setup"
+    en: "Setup messages"
+    rol: "921445728189030401"
+  voice:
+    es: "Crea un ticket de voz"
+    en: "Create a new voice ticket"
+    rol: "921445728189030401"
+  close_voice:
+    es: "Cierra un ticket de voz"
+    en: "Delete a voice ticket"
+    rol: "921445728189030401"
+  poll:
+    es: "Crea una votacion"
+    en: "Create a poll"
+    rol: "921445728189030401"

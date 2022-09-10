@@ -1,0 +1,189 @@
+error:
+  description: "Ocurrió un error al ejecutar el comando. Por favor revisa la consola y que tenga permiso."
+  color: 16101959
+no_permission:
+  description: "No tienes permiso para usar este comando"
+  color: 16101959
+avatar:
+  title: "%tag%"
+  image:
+    url: "%image%"
+  color: 16101959
+addrole:
+  description: "Agregado el rol %rol% a %user%"
+  color: 16101959
+no_permission_rol:
+  description: "El rol es igual o superior al tuyo, no puedes darlo"
+  color: 16101959
+announce:
+  description: "Anuncios enviados"
+  color: 16101959
+info:
+  description: "INFO:\nIP:...\nTIENDA:...\nDISCORD:...."
+  color: 16101959
+ip:
+  description: "IP: ..."
+  color: 16101959
+invite:
+  description: "INVITACIÓN: ..."
+  color: 16101959
+nick:
+  description: "Nombre establecido a `%nick%`"
+  color: 16101959
+removerole:
+  description: "Removido el rol %rol% a %user%"
+  color: 16101959
+purge:
+  description: "Eliminados %amount% mensajes."
+  color: 16101959
+invalid_number:
+  description: "Especifica un número válido (Entre 1 y 100)"
+  color: 16101959
+setdelay:
+  description: "Ahora los usuarios deberán esperar %time% entre mensajes."
+  color: 16101959
+usage_setdelay:
+  description: "Especifica un número válido (Máximo 6h)"
+  color: 16101959
+flipcoin:
+  title: "Salió... %value%"
+  image:
+    url: "%img%"
+  color: 16101959
+banlist:
+  description: "Mostrando los últimos %bans% baneos:\n%list%"
+  color: 16101959
+lock:
+  description: "Canal cerrado satisfactoriamente"
+  color: 16101959
+unlock:
+  description: "Canal abierto satisfactoriamente"
+  color: 16101959
+report_done:
+  description: "Has reportado a %user% por %razon%. Un staff mirará tu reporte pronto."
+  color: 16101959
+report_staff:
+  description: "%sender% ha reportado a %user% por %razon%."
+  color: 16101959
+reportbug_done:
+  description: "Gracias por tu reporte. Lo solucionaremos pronto."
+  color: 16101959
+reportbug_staff:
+  title: "Bug reportado"
+  description: "**Reportado por:** %user%\n\n**Explicación:** %bug%"
+  color: 16101959
+status:
+  title: "Estado del servidor"
+  description: "Usuarios online: %userCount%"
+  color: 16101959
+cannot_ban:
+  description: "No tienes suficientes permisos para banear a ese usuario."
+  color: 16101959
+banned:
+  description: "Baneaste con éxito a %user% por %razon%"
+  color: 16101959
+unban:
+  description: "El usuario ha sido desbaneado"
+  color: 16101959
+not_banned:
+  description: "Ese usuario no está baneado"
+  color: 16101959
+cannot_kick:
+  description: "No puedes kickear a ese usuario"
+  color: 16101959
+kicked:
+  description: "kickeaste a %user% por %razon%"
+  color: 16101959
+usage_mute:
+  description: "Especifica una duración válida (Ej: 1h)"
+  color: 16101959
+cannot_mute:
+  description: "No puedes mutear a ese usuario"
+  color: 16101959
+muted:
+  description: "Silenciaste a %user% durante %time% por %razon%"
+  color: 16101959
+cannot_unmute:
+  description: "No puedes desmutear a ese usuario"
+  color: 16101959
+unmuted:
+  description: "Desmuteaste a %user%"
+  color: 16101959
+giveaway_started:
+  description: "Iniciaste un sorteo en %canal%, durante %duracion%.\n\nPremio: %premio%, ganadores: %ganadores%"
+  color: 16101959
+giveaway_not_found:
+  description: "No se encontró un sorteo con esa ID"
+  color: 16101959
+giveaway_ended:
+  description: "Finalizaste el sorteo."
+  color: 16101959
+giveaway_inactive:
+  description: "No puedes finalizar ese sorteo porque no está activo"
+  color: 16101959
+giveaway_reroll:
+  description: "Se eligieron nuevos ganadores para el sorteo"
+  color: 16101959
+suggestion:
+  description: "Nueva sugerencia."
+  fields:
+    - name: "Sugerido por"
+      value: "%user%"
+      inline: false 
+    - name: "Sugerencia"
+      value: "%sugerencia%"
+      inline: false
+  color: 16101959
+invalid_id:
+  description: "No se encontró una sugerencia con esa ID"
+  color: 16101959
+accepted:
+  description: "Sugerencia aceptada, enviando mensaje..."
+  color: 16101959
+accepted_suggestion:
+  description: "SUGERENCIA ACEPTADA"
+  fields:
+    - name: "Sugerido por"
+      value: "%user%"
+      inline: false 
+    - name: "Sugerencia"
+      value: "%sugerencia%"
+      inline: false
+  color: 16101959
+language:
+  description: "SElecciona tu lenguaje"
+  color: 16101959
+verification:
+  description: "Click para verificar"
+  color: 16101959
+
+ticket_voice_created:
+  description: "Se creó tu ticket de voz. %canal%"
+  color: 16101959
+
+not_voice_channel:
+  description: "Conéctate al ticket de voz que quieres cerrar"
+  color: 16101959
+
+not_ticket:
+  description: "Ese canal no es un ticket"
+  color: 16101959
+
+closed_voice:
+  description: "El ticket de voz ha sido cerrado"
+  color: 16101959
+
+poll_sent:
+  description: "Enviaste una encuesta"
+  color: 16101959
+
+poll:
+  description: "%desc%"
+  fields:
+    - name: "1️⃣ Opción 1"
+      value: "%1%"
+      inline: false 
+    - name: "2️⃣ Opción 2"
+      value: "%2%"
+      inline: false
+  color: 16101959

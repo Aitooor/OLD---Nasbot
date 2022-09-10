@@ -1,0 +1,186 @@
+error:
+  description: "An error has ocurred, inform a server admin."
+  color: 16101959
+no_permission:
+  description: "No tienes permiso para usar este comando"
+  color: 16101959
+avatar:
+  title: "%tag%"
+  image:
+    url: "%image%"
+  color: 16101959
+addrole:
+  description: "Added %rol% rol to %user%"
+  color: 16101959
+no_permission_rol:
+  description: "THe role is the same or superior as your highest one, you can't give it."
+  color: 16101959
+announce:
+  description: "Announces sent"
+  color: 16101959
+info:
+  description: "INFO:\nIP:...\nTIENDA:...\nDISCORD:...."
+  color: 16101959
+ip:
+  description: "IP: ..."
+  color: 16101959
+invite:
+  description: "INVITE: ..."
+  color: 16101959
+nick:
+  description: "Your nickname is now `%nick%`"
+  color: 16101959
+removerole:
+  description: "Removed %rol% rol from %user%"
+  color: 16101959
+purge:
+  description: "Deleted %amount% messages."
+  color: 16101959
+invalid_number:
+  description: "Specify a valid number (From 1 to 100)"
+  color: 16101959
+setdelay:
+  description: "Now users must wait %time% before sending messages."
+  color: 16101959
+usage_setdelay:
+  description: "Specify a valid time (Max 6h)"
+  color: 16101959
+flipcoin:
+  title: "And the lucky says... %value%"
+  image:
+    url: "%img%"
+  color: 16101959
+banlist:
+  description: "Showing last %bans% bans:\n%list%"
+  color: 16101959
+lock:
+  description: "Channed locked successfully"
+  color: 16101959
+unlock:
+  description: "Channed unlocked successfully"
+  color: 16101959
+report_done:
+  description: "You have reported %user% from %razon%. A staff will take a look soon."
+  color: 16101959
+report_staff:
+  description: "%sender% has reported %user% for %razon%."
+  color: 16101959
+reportbug_done:
+  description: "Thanks for reporting. We'll patch it soon"
+  color: 16101959
+reportbug_staff:
+  title: "Bug reported"
+  description: "**Reported by:** %user%\n\n**Explanation:** %bug%"
+  color: 16101959
+status:
+  title: "Server status"
+  description: "Online: %userCount%"
+  color: 16101959
+cannot_ban:
+  description: "You don't have enough permission."
+  color: 16101959
+banned:
+  description: "Banned %user% for %razon%"
+  color: 16101959
+unban:
+  description: "User unbanned"
+  color: 16101959
+not_banned:
+  description: "That user is not banned"
+  color: 16101959
+cannot_kick:
+  description: "You can't kick that user"
+  color: 16101959
+kicked:
+  description: "Kicked %user% for %razon%"
+  color: 16101959
+usage_mute:
+  description: "Specify a valid duration (E.g 1h)"
+  color: 16101959
+cannot_mute:
+  description: "You can't mute that user"
+  color: 16101959
+muted:
+  description: "Muted %user% for %time% due to %razon%"
+  color: 16101959
+cannot_unmute:
+  description: "You can't unmute that user"
+  color: 16101959
+unmuted:
+  description: "Unmuted %user%"
+  color: 16101959
+giveaway_started:
+  description: "Giveaway started on %canal%, for %duracion%.\n\nPrize: %premio%, winners: %ganadores%"
+  color: 16101959
+giveaway_not_found:
+  description: "There is no giveaway with that ID"
+  color: 16101959
+giveaway_ended:
+  description: "You've ended the giveaway"
+  color: 16101959
+giveaway_inactive:
+  description: "You can't stop that giveaway because is not active"
+  color: 16101959
+giveaway_reroll:
+  description: "New winners have been randomly chosen"
+  color: 16101959
+suggestion:
+  description: "New suggestion."
+  fields:
+    - name: "Suggested by"
+      value: "%user%"
+      inline: false 
+    - name: "Suggestion"
+      value: "%sugerencia%"
+      inline: false
+  color: 16101959
+invalid_id:
+  description: "There is no suggestion with that ID"
+  color: 16101959
+accepted:
+  description: "Suggestion accepted, sending messages..."
+  color: 16101959
+accepted_suggestion:
+  description: "NEW SUGGESTION ACCEPTED"
+  fields:
+    - name: "suggested by"
+      value: "%user%"
+      inline: false 
+    - name: "Suggestion"
+      value: "%sugerencia%"
+      inline: false
+  color: 16101959
+verification:
+  description: "Click to verify"
+  color: 16101959
+
+ticket_voice_created:
+  description: "Voice ticket created. %canal%"
+  color: 16101959
+
+not_voice_channel:
+  description: "You must be connected to the ticket that you want to close"
+  color: 16101959
+
+not_ticket:
+  description: "That voice channel is not a ticket"
+  color: 16101959
+
+closed_voice:
+  description: "Ticket closed"
+  color: 16101959
+
+poll_sent:
+  description: "You've sent a poll"
+  color: 16101959
+
+poll:
+  description: "%desc%"
+  fields:
+    - name: "1️⃣ Option 1"
+      value: "%1%"
+      inline: false 
+    - name: "2️⃣ Option 2"
+      value: "%2%"
+      inline: false
+  color: 16101959

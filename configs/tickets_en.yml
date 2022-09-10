@@ -1,0 +1,152 @@
+panel:
+  title: "Tickets"
+  description: "Click the button below."
+  color: 9566865
+buttons:
+  open:
+    label: "Click to open ticket"
+    emoji: "📩"
+    color: 1
+  close:
+    label: "Close ticket"
+    emoji: "🔒"
+    color: 4
+  callStaff:
+    label: "Completed"
+    emoji: "✅"
+    color: 3
+  close_confirm_yes:
+    label: "YES"
+    emoji: "✔"
+    color: 3
+  close_confirm_no:
+    label: "NO"
+    emoji: "❌"
+    color: 4
+  delete:
+    label: "Delete permanently"
+    emoji: "🗑"
+    color: 4
+
+channelName: "%emoji%┃%user%-%category%"
+log_channel: "1016023164754608188"
+
+menu:
+  placeholder: "Click to select category"
+  options:
+    a:
+      enabled: true
+      label: "FAQ"
+      shortName: "faq"
+      emoji: "❔"
+      description: "Description."
+      embed:
+        title: "Welcome to your ticket"
+        description: "Tell us your problem"
+    b:
+      enabled: true
+      label: "Reports"
+      shortName: "reports"
+      emoji: "🚫"
+      description: "Description."
+      embed:
+        title: "Welcome to your ticket"
+        description: "Tell us your problem"
+    c:
+      enabled: true
+      label: "Gifts"
+      shortName: "gifts"
+      emoji: "🎁"
+      description: "Description."
+      embed:
+        title: "Welcome to your ticket"
+        description: "Tell us your problem"
+    d:
+      enabled: true
+      label: "Business"
+      shortName: "business"
+      emoji: "👜"
+      description: "Description."
+      embed:
+        title: "Welcome to your ticket"
+        description: "Tell us your problem"
+    e:
+      enabled: true
+      label: "Social"
+      shortName: "social"
+      emoji: "🌐"
+      description: "Description."
+      embed:
+        title: "Welcome to your ticket"
+        description: "Tell us your problem"
+    f:
+      enabled: true
+      label: "Staff applys"
+      shortName: "staff"
+      emoji: "🔓"
+      description: "Description."
+      embed:
+        title: "Welcome to your ticket"
+        description: "Tell us your problem"
+    g:
+      enabled: true
+      label: "Dev applys"
+      shortName: "dev"
+      emoji: "💻"
+      description: "Description."
+      embed:
+        title: "Welcome to your ticket"
+        description: "Tell us your problem"
+    
+
+antispam:
+  max_tickets_per_user: 1
+
+staffRol: "949663852902113360"
+parentId: "949663853669654549"
+
+messages:
+
+  selectCategory:
+    description: "Select a category from the dropdown menu"
+  ticketCreated:
+    description: "Your ticket has been created -> %canal%"
+  max_tickets:
+    description: "You cannot create more tickets"
+  already_called_staff:
+    description: "You have already called staff."
+  callStaff:
+    description: "%rol%. You've called staff successfully."
+    color: 1848641
+  already_closed:
+    description: "The ticket is already closed."
+    color: 7485456
+  ticketClose:
+    description: "Are you sure that you want to close the ticket?"
+    color: 7485456
+  ticketClosedConfirmed:
+    description: "The ticket has been closed."
+    color: 4589456
+  clickToDelete:
+    description: "To delete the ticket, click `Cerrar ticket`"
+    color: 4854584
+  userTranscript:
+    title: "Support"
+    description: "Your ticket has been closed"
+    fields:
+      - name: "Channel"
+        value: "%canal%"
+        inline: true
+      - name: "Closed by"
+        value: "%staff%"
+        inline: true
+  staffTranscript:
+    title: "Support"
+    description: "Your ticket has been closed"
+    fields:
+      - name: "Channel"
+        value: "%canal%"
+        inline: true
+      - name: "Closed by"
+        value: "%staff%"
+        inline: true

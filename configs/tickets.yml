@@ -1,0 +1,157 @@
+panel:
+  title: "Tickets"
+  description: "Click al botón de abajo para crear un ticket privado con el staff."
+  color: 9566865
+buttons:
+  open:
+    label: "Click para abrir ticket"
+    emoji: "📩"
+    color: 1
+  close:
+    label: "Cerrar"
+    emoji: "🔒"
+    color: 4
+  callStaff:
+    label: "Completado"
+    emoji: "✅"
+    color: 3
+  close_confirm_yes:
+    label: "Si"
+    emoji: "✔"
+    color: 3
+  close_confirm_no:
+    label: "No"
+    emoji: "❌"
+    color: 4
+  delete:
+    label: "Cerrar definitivamente"
+    emoji: "🗑"
+    color: 4
+
+channelName: "%emoji%┃%user%-%category%"
+log_channel: "1016023164754608188"
+
+menu:
+  placeholder: "Click para seleccionar categoría"
+  options:
+    a:
+      enabled: true
+      label: "FAQ"
+      shortName: "faq"
+      emoji: "❔"
+      description: "Para resolver tus dudas respecto al servidor."
+      embed:
+        title: "Bienvenido a tu ticket"
+        description: "Comenta tu problema"
+    b:
+      enabled: true
+      label: "Reportes"
+      shortName: "reportes"
+      emoji: "🚫"
+      description: "Descripción."
+      embed:
+        title: "Bienvenido a tu ticket"
+        description: "Comenta tu problema"
+    c:
+      enabled: true
+      label: "Regalos"
+      shortName: "regalos"
+      emoji: "🎁"
+      description: "Descripción."
+      embed:
+        title: "Bienvenido a tu ticket"
+        description: "Comenta tu problema"
+    d:
+      enabled: true
+      label: "Negocios"
+      shortName: "negocios"
+      emoji: "👜"
+      description: "Descripción.."
+      embed:
+        title: "Bienvenido a tu ticket"
+        description: "Comenta tu problema"
+    e:
+      enabled: true
+      label: "Social"
+      shortName: "social"
+      emoji: "🌐"
+      description: "Descripción.."
+      embed:
+        title: "Bienvenido a tu ticket"
+        description: "Comenta tu problema"
+    f:
+      enabled: true
+      label: "Postulaciones staff"
+      shortName: "staff"
+      emoji: "🔓"
+      description: "Descripción..."
+      embed:
+        title: "Bienvenido a tu ticket"
+        description: "Comenta tu problema"
+    g:
+      enabled: true
+      label: "Postulaciones Dev"
+      shortName: "dev"
+      emoji: "💻"
+      description: "Descripción..."
+      embed:
+        title: "Bienvenido a tu ticket"
+        description: "Comenta tu problema"
+    
+
+antispam:
+  max_tickets_per_user: 1
+
+staffRol: "949663852902113360"
+parentId: "949663853669654549"
+
+messages:
+
+  selectCategory:
+    description: "Selecciona una categoría del menú desplegable:"
+
+  ticketContent: "%user%, bienvenido a tu ticket."
+  ticketEmbed:
+    title: "Bienvenido a tu ticket"
+    description: "Comenta tu problema."
+  ticketCreated:
+    description: "Tu ticket ha sido creado -> %canal%"
+  max_tickets:
+    description: "No puedes crear mas tickets "
+  already_called_staff:
+    description: "Ya has llamado al staff."
+  callStaff:
+    description: "%rol%. Has llamado al staff satisfactoriamente."
+    color: 1848641
+  already_closed:
+    description: "El ticket ya está cerrado."
+    color: 7485456
+  ticketClose:
+    description: "¿Seguro que quieres cerrar el ticket?"
+    color: 7485456
+  ticketClosedConfirmed:
+    description: "El ticket ha sido cerrado."
+    color: 4589456
+  clickToDelete:
+    description: "Para borrarlo pulsa en `Cerrar ticket`"
+    color: 4854584
+  userTranscript:
+    title: "Soporte"
+    description: "Tu ticket ha sido cerrado"
+    fields:
+      - name: "Canal"
+        value: "%canal%"
+        inline: true
+      - name: "Cerrado por"
+        value: "%staff%"
+        inline: true
+  staffTranscript:
+    title: "Soporte"
+    description: "Tu ticket ha sido cerrado"
+    fields:
+      - name: "Canal"
+        value: "%canal%"
+        inline: true
+      - name: "Cerrado por"
+        value: "%staff%"
+        inline: true
