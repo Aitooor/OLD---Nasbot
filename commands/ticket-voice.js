@@ -18,16 +18,18 @@ module.exports = {
 
         checkLanguage(interaction.member) ?
         embeds = {
-            a: messages.ticket_voice_created
+            a: messages.ticket_voice_created,
+            b: config.tickets_voice.parents.es
         }
         :
         embeds = {
-            a: messagesEn.ticket_voice_created   
+            a: messagesEn.ticket_voice_created,
+            b: config.tickets_voice.parents.en 
         };
 
         await interaction.guild.channels.create({
             name: `ticket-${interaction.user.username.toLowerCase()}`,
-            parent: config.tickets_voice.parentId,
+            parent: embeds.b,
             userLimit: config.tickets_voice.userlimit,
             type: ChannelType.GuildVoice,
             permissionOverwrites: [
