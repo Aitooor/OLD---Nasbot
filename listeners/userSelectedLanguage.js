@@ -1,5 +1,5 @@
 const { ActionRowBuilder, ButtonBuilder } = require("discord.js")
-const { config, messages } = require("../index.js")
+const { config, messages, messagesEn } = require("../index.js")
 
 module.exports = async (client, interaction, language) => {
 
@@ -10,30 +10,47 @@ module.exports = async (client, interaction, language) => {
     switch(language) {
         case "ES":
             await interaction.member.roles.add(config.verificacion.es_rol)
+            cnf = {
+                a: messages.verificacion,
+                b: config.verificacion.button_verify_es.label,
+                c: config.verificacion.button_verify_es.emoji,
+                d: config.verificacion.button_verify_es.color
+            }
             break;
         case "EN":
             await interaction.member.roles.add(config.verificacion.en_rol)
+            cnf = {
+                a: messagesEn.verificacion,
+                b: config.verificacion.button_verify_en.label,
+                c: config.verificacion.button_verify_en.emoji,
+                d: config.verificacion.button_verify_en.color
+            }
             break;
         case "ESN":
             await interaction.member.roles.add(config.verificacion.es_rol)
             await interaction.member.roles.add(config.verificacion.en_rol)
+            cnf = {
+                a: messagesEn.verificacion,
+                b: config.verificacion.button_verify_en.label,
+                c: config.verificacion.button_verify_en.emoji,
+                d: config.verificacion.button_verify_en.color
+            }
             break;
     }
 
     await interaction.editReply({
         embeds: [
-            messages.verification
+            cnf.a
         ],
         components: [
             new ActionRowBuilder()
             .addComponents(
                 new ButtonBuilder()
-                .setLabel(config.verificacion.button_verify.label)
-                .setEmoji(config.verificacion.button_verify.emoji)
-                .setStyle(config.verificacion.button_verify.color)
+                .setLabel(cnf.b)
+                .setEmoji(cnf.c)
+                .setStyle(cnf.d)
                 .setCustomId("verify")
             )
         ]
     })
-
 }
