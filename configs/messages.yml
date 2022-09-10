@@ -193,3 +193,9 @@ rise:
 alr_rise:
   description: "El ticket ya está visible a los administradores solo"
   color: 16101959
+decrease:
+  description: "El ticket fue removido del nivel rise"
+  color: 16101959
+alr_decrease:
+  description: "El ticket no está en el nivel rise"
+  color: 16101959
