@@ -107,11 +107,14 @@ verificacion:
   button_esn:
     label: "Español / English"
     color: 2
-  button_verify:
+  button_verify_es:
     label: "Verificar"
     color: 3
     emoji: "✅"
-
+  button_verify_en:
+    label: "Verify"
+    color: 3
+    emoji: "✅"
 
 tickets_voice:
   #Rol del staff (se le daran permisos de unirse)
