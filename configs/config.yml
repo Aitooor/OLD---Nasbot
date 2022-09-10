@@ -126,128 +126,160 @@ commands:
   say:
     es: "Haz que el bot diga lo que quieras." #Descripción del comando en español
     en: "Make the bot say something" #Descripción del comando en inglés
-    rol: "659579747528867840" #Rol requerido para usar el comando
+    rol:
+      - "659579747528867840" #Rol requerido para usar el comando
   avatar:
     es: "Muestra tu avatar o el de otro usuario."
     en: "Shows your or another user 's avatar"
-    rol: "745440633216303145"
+    rol:
+      - "745440633216303145"
   addrole:
     es: "Agrega un rol a un usuario."
     en: "Adds a rol to an user"
-    rol: "921445728189030401"
+    rol:
+      - "921445728189030401"
   announce:
     es: "Envía un anuncio a ambos canales."
     en: "Sends an announce"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   info:
     es: "Muestra información del servidor."
     en: "Shows server info"
-    rol: "745440633216303145"
+    rol:
+      - "745440633216303145"
   ip:
     es: "Muestra la IP del servidor."
     en: "Shows server's ip"
-    rol: "745440633216303145"
+    rol:
+      - "745440633216303145"
   invite:
     es: "Muestra la invitación al discord."
     en: "Shows the discord invite"
-    rol: "745440633216303145"
+    rol:
+      - "745440633216303145"
   nick:
     es: "Modifica el nickname de un usuario."
     en: "Modifies the nickname of an user"
-    rol: "921445728189030401"
+    rol:
+      - "921445728189030401"
   num:
     es: "Selecciona un número al azar."
     en: "Selects a random number"
-    rol: "745440633216303145"
+    rol:
+      - "745440633216303145"
   removerole:
     es: "Remueve un rol de un usuario"
     en: "Removes a rol from an user"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   purge:
     es: "Elimina una cantidad de mensajes de un canal"
     en: "Deletes some messages on the channel"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   setdelay:
     es: "Establece el slowmode en un canal"
     en: "Set the slowmode time on a channel"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   flipcoin:
     es: "Obtiene un resultado aleatorio entre cara y cruz"
     en: "Face or cross"
-    rol: "745440633216303145"
+    rol:
+      - "745440633216303145"
   banlist:
     es: "Muestra la lista de baneos"
     en: "Shows ban list"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   lock:
     es: "Bloquea el canal a usuarios."
     en: "Lock the channel for normal users"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   unlock:
     es: "Des-Bloquea el canal a usuarios"
     en: "Unlock the channel for normal users"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   report:
     es: "Reporta a un usuario"
     en: "Report an user"
-    rol: "745440633216303145"
+    rol:
+      - "745440633216303145"
   reportbug:
     es: "Reporta un bug"
     en: "Alerts staffs about a bug"
-    rol: "745440633216303145"
+    rol:
+      - "745440633216303145"
   status:
     es: "Muestra los jugadores online en un servidor"
     en: "Shows the number of online players"
-    rol: "745440633216303145"
+    rol:
+      - "745440633216303145"
   ban:
     es: "Banea a un usuario"
     en: "Ban an user"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   unban:
     es: "Des-Banea a un usuario"
     en: "Unban an user"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   kick:
     es: "Kickea a un usuario del servidor"
     en: "Kick an user"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   mute:
     es: "Silencia a un usuario"
     en: "Mute an user"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   unmute:
     es: "Remueve el silencio de un usuario"
     en: "Unmute an user"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   giveaway_start:
     es: "Inicia un sorteo"
     en: "Starts a giveaway"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   giveaway_end:
     es: "Acaba un sorteo"
     en: "Forcibbly ends a giveaway"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   giveaway_reroll:
     es: "Elige nuevos ganadores para un sorteo"
     en: "Randomly choose new winners"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   accept:
     es: "Acepta una sugerencia"
     en: "Accept a suggestion"
-    rol: "659579740436299786"
+    rol:
+      - "659579740436299786"
   panel:
     es: "Mensajes de setup"
     en: "Setup messages"
-    rol: "659579740436299786"
+    rol:
+      - "659579740436299786"
   voice:
     es: "Crea un ticket de voz"
     en: "Create a new voice ticket"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   close_voice:
     es: "Cierra un ticket de voz"
     en: "Delete a voice ticket"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
   poll:
     es: "Crea una votacion"
     en: "Create a poll"
-    rol: "659579747528867840"
+    rol:
+      - "659579747528867840"
