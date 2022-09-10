@@ -288,3 +288,14 @@ commands:
     en: "Create a poll"
     rol:
       - "659579747528867840"
+   rise:
+    es: "Sube un ticket de nivel"
+    en: "Admin rise"
+    rol:
+      - "659579747528867840"
+      
+   decrease:
+    es: "Baja un ticket de nivel"
+    en: "Admin decrease"
+    rol:
+      - "659579747528867840"
