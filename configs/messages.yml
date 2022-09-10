@@ -151,10 +151,10 @@ accepted_suggestion:
       inline: false
   color: 16101959
 language:
-  description: "SElecciona tu lenguaje"
+  description: "Select a language || Selecciona tu lenguaje"
   color: 16101959
 verification:
-  description: "Click para verificar"
+  description: "Click it || Dale clic"
   color: 16101959
 
 ticket_voice_created:
