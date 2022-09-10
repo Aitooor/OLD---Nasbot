@@ -11,7 +11,7 @@ module.exports = async (client, interaction, language) => {
         case "ES":
             await interaction.member.roles.add(config.verificacion.es_rol)
             cnf = {
-                a: messages.verificacion,
+                a: messages.verification,
                 b: config.verificacion.button_verify_es.label,
                 c: config.verificacion.button_verify_es.emoji,
                 d: config.verificacion.button_verify_es.color
@@ -20,7 +20,7 @@ module.exports = async (client, interaction, language) => {
         case "EN":
             await interaction.member.roles.add(config.verificacion.en_rol)
             cnf = {
-                a: messagesEn.verificacion,
+                a: messagesEn.verification,
                 b: config.verificacion.button_verify_en.label,
                 c: config.verificacion.button_verify_en.emoji,
                 d: config.verificacion.button_verify_en.color
@@ -30,7 +30,7 @@ module.exports = async (client, interaction, language) => {
             await interaction.member.roles.add(config.verificacion.es_rol)
             await interaction.member.roles.add(config.verificacion.en_rol)
             cnf = {
-                a: messagesEn.verificacion,
+                a: messagesEn.verification,
                 b: config.verificacion.button_verify_en.label,
                 c: config.verificacion.button_verify_en.emoji,
                 d: config.verificacion.button_verify_en.color
