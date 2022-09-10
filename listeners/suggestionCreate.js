@@ -17,7 +17,6 @@ module.exports = async (client, message, language) => {
         } 
     }
 
-    await message.delete()
     await message.channel.send({
         embeds: [
             JSON.parse(JSON.stringify(cnf.a)
@@ -26,6 +25,7 @@ module.exports = async (client, message, language) => {
         ]
     })
     .then(async (msg) => {
+        await message.delete();
         await database.set(`suggestion_${msg.id}`, {
             messageId: msg.id,
             language: language,
