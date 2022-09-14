@@ -1,4 +1,4 @@
-
+const { config } = require("..")
 
 module.exports = async (client, interaction) => {
     if(interaction.isCommand()) return;
@@ -54,6 +54,18 @@ module.exports = async (client, interaction) => {
             break;
         case "ticketDeleteEN":
             await client.emit("ticketDelete", interaction)
+            break;
+        case "es":
+            await interaction.member.roles.add(config.verificacion.es_rol);
+            await interaction.member.roles.remove(config.verificacion.en_rol);
+            break;
+        case "en": 
+            await interaction.member.roles.remove(config.verificacion.es_rol);
+            await interaction.member.roles.add(config.verificacion.en_rol);
+            break;
+        case "esn":
+            await interaction.member.roles.add(config.verificacion.es_rol);
+            await interaction.member.roles.add(config.verificacion.en_rol); 
             break;
     }
 }
