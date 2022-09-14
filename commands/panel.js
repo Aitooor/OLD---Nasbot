@@ -25,6 +25,10 @@ module.exports = {
                 {
                     name: "Verificacion",
                     value: "verificacion"
+                },
+                {
+                    name: "Lang",
+                    value: "lang"
                 }
             )),
     async execute(interaction) {
@@ -97,6 +101,31 @@ module.exports = {
             })
 
             await interaction.deleteReply()
+
+        } else {
+
+            await interaction.channel.send({
+                embeds: [
+                    messages.language
+                ],
+                components: [
+                    new ActionRowBuilder()
+                    .addComponents(
+                        new ButtonBuilder()
+                        .setLabel(config.verificacion.button_es.label)
+                        .setCustomId("es")
+                        .setStyle(config.verificacion.button_es.color),
+                        new ButtonBuilder()
+                        .setLabel(config.verificacion.button_en.label)
+                        .setCustomId("en")
+                        .setStyle(config.verificacion.button_en.color),
+                        new ButtonBuilder()
+                        .setLabel(config.verificacion.button_esn.label)
+                        .setCustomId("esn")
+                        .setStyle(config.verificacion.button_esn.color)
+                    )
+                ]
+            })
 
         }
     }
