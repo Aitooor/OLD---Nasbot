@@ -126,7 +126,7 @@ module.exports = {
                     )
                 ]
             })
-
+            await interaction.deleteReply()
         }
     }
 };
