@@ -58,14 +58,17 @@ module.exports = async (client, interaction) => {
         case "es":
             await interaction.member.roles.add(config.verificacion.es_rol);
             await interaction.member.roles.remove(config.verificacion.en_rol);
+            await interaction.deferUpdate();
             break;
         case "en": 
             await interaction.member.roles.remove(config.verificacion.es_rol);
             await interaction.member.roles.add(config.verificacion.en_rol);
+            await interaction.deferUpdate();
             break;
         case "esn":
             await interaction.member.roles.add(config.verificacion.es_rol);
-            await interaction.member.roles.add(config.verificacion.en_rol); 
+            await interaction.member.roles.add(config.verificacion.en_rol);
+            await interaction.deferUpdate();
             break;
     }
 }
