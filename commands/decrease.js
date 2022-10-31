@@ -43,7 +43,7 @@ module.exports = {
         await interaction.channel.permissionOverwrites.edit(embeds.c, { ViewChannel: true })
         
 
-        await interaction.reply({
+        await interaction.editReply({
             embeds: [
                 embeds.a
             ]
