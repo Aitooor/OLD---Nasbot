@@ -277,24 +277,24 @@ commands:
     es: "Crea un ticket de voz"
     en: "Create a new voice ticket"
     rol:
-      - "659579747528867840"
+      - "659579740436299786"
   close_voice:
     es: "Cierra un ticket de voz"
     en: "Delete a voice ticket"
     rol:
-      - "659579747528867840"
+      - "659579740436299786"
   poll:
     es: "Crea una votacion"
     en: "Create a poll"
     rol:
-      - "659579747528867840"
+      - "659579740436299786"
   rise:
     es: "Sube un ticket de nivel"
     en: "Admin rise"
     rol:
-      - "659579747528867840"
+      - "659579740436299786"
   decrease:
     es: "Baja un ticket de nivel"
     en: "Admin decrease"
     rol:
-      - "659579747528867840"
+      - "659579740436299786"
