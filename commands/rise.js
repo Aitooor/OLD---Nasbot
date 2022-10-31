@@ -66,7 +66,7 @@ module.exports = {
             await interaction.channel.permissionOverwrites.edit(rol, { ViewChannel: true, SendMessages: true })
         }
 
-        await interaction.reply({
+        await interaction.editReply({
             embeds: [
                 embeds.a
             ]
