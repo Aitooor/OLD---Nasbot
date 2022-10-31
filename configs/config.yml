@@ -122,8 +122,8 @@ tickets_voice:
   staffENRolId: "660260944882040853"
   #Categoria donde se crean los tickets de voz
   parents:
-    es: "949663853669654549"
-    en: "949663853669654549"
+    es: "998732404061638766"
+    en: "998732499976990840"
   #Limite de usuarios del canal de voz
   userlimit: 3
 

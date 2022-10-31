@@ -29,7 +29,7 @@ buttons:
     color: 4
 
 channelName: "%emoji%┃%user%-%category%"
-log_channel: "1016023164754608188"
+log_channel: "866078060846383104"
 
 menu:
   placeholder: "Click para seleccionar categoría"
@@ -111,13 +111,13 @@ menu:
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
-    
+
 
 antispam:
   max_tickets_per_user: 1
 
-staffRol: "660260944882040853"
-parentId: "998732499976990840"
+staffRol: "991931583219118121"
+parentId: "998732404061638766"
 
 messages:
 
