@@ -41,7 +41,7 @@ menu:
       emoji: "❔"
       description: "Para resolver tus dudas respecto al servidor."
       rise_roles:
-        - "1"
+        - "659579747528867840"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -52,7 +52,7 @@ menu:
       emoji: "🚫"
       description: "Descripción."
       rise_roles:
-        - "1"
+        - "659579747528867840"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -63,7 +63,7 @@ menu:
       emoji: "🎁"
       description: "Descripción."
       rise_roles:
-        - "1"
+        - "659579747528867840"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -74,7 +74,7 @@ menu:
       emoji: "👜"
       description: "Descripción.."
       rise_roles:
-        - "1"
+        - "659579747528867840"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -85,7 +85,7 @@ menu:
       emoji: "🌐"
       description: "Descripción.."
       rise_roles:
-        - "1"
+        - "659579747528867840"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -96,7 +96,7 @@ menu:
       emoji: "🔓"
       description: "Descripción..."
       rise_roles:
-        - "1"
+        - "659579747528867840"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
@@ -107,7 +107,7 @@ menu:
       emoji: "💻"
       description: "Descripción..."
       rise_roles:
-        - "1"
+        - "659579747528867840"
       embed:
         title: "Bienvenido a tu ticket"
         description: "Comenta tu problema"
