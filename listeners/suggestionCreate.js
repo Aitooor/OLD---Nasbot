@@ -6,14 +6,14 @@ module.exports = async (client, message, language) => {
     if(language === "ES") {
         cnf = {
             a: messages.suggestion,
-            b: config.sugerenciasEs.reactions.up,
-            c: config.sugerenciasEs.reactions.down
+            b: config.suggestionsEs.reactions.up,
+            c: config.suggestionsEs.reactions.down
         }
     } else {
         cnf = {
             a: messagesEn.suggestion,
-            b: config.sugerenciasEn.reactions.up,
-            c: config.sugerenciasEn.reactions.down
+            b: config.suggestionsEn.reactions.up,
+            c: config.suggestionsEn.reactions.down
         } 
     }
 
