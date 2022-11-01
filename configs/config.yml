@@ -57,7 +57,7 @@ giveaways:
     reroll: "🎉 **Nuevo(s) ganador(es):** 🎉\n{winners}\nFelicidades, ha(n) ganado: **{this.prize}**\n{this.messageURL}"
     notenoughmembers: "🚫 No hubieron participantes suficientes para re-sortear."
 
-sugerenciasEs:
+suggestionsEs:
 #Canal(es) de sugerencias en español
   channels:
     - "998734632369520640"
@@ -72,7 +72,7 @@ sugerenciasEs:
 #Cantidad de votos que debe tener la sugerencia antes de ser enviada a revisión
   votes_until_review: 40
 
-sugerenciasEn:
+suggestionsEn:
 #Lo de arriba pero en inglés
   channels:
     - "998734664749568050"
@@ -84,7 +84,7 @@ sugerenciasEn:
   votes_until_review: 40
 
 
-verificacion:
+verification:
 #Rol ESPAÑOL
   en_rol: "971586129751076924"
 #Rol INGLÉS
