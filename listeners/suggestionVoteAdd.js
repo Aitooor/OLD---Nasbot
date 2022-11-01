@@ -13,17 +13,17 @@ module.exports = async (client, reaction, language) => {
 
   if(language === "ES") {
     cnf = {
-        a: config.sugerenciasEs.reactions.down,
-        b: config.sugerenciasEs.reactions.up,
-        c: config.sugerenciasEs.votes_until_review,
-        d: config.sugerenciasEs.review_channel
+        a: config.suggestionsEs.reactions.down,
+        b: config.suggestionsEs.reactions.up,
+        c: config.suggestionsEs.votes_until_review,
+        d: config.suggestionsEs.review_channel
     }
   } else {
     cnf = {
-        a: config.sugerenciasEn.reactions.down,
-        b: config.sugerenciasEn.reactions.up,
-        c: config.sugerenciasEn.votes_until_review,
-        d: config.sugerenciasEn.review_channel
+        a: config.suggestionsEn.reactions.down,
+        b: config.suggestionsEn.reactions.up,
+        c: config.suggestionsEn.votes_until_review,
+        d: config.suggestionsEn.review_channel
     }
   }
 
