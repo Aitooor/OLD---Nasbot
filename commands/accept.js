@@ -27,14 +27,14 @@ module.exports = {
                 a: messages.invalid_id,
                 b: messages.accepted_suggestion,
                 c: messages.accepted,
-                d: config.sugerenciasEs.accepted_channel
+                d: config.suggestionsEs.accepted_channel
             }
             :
             embeds = {
                 a: messagesEn.invalid_id,
                 b: messagesEn.accepted_suggestion,
                 c: messagesEn.accepted,
-                d: config.sugerenciasEn.accepted_channel  
+                d: config.suggestionsEn.accepted_channel  
             };
 
         if(!sugUtils.isSuggestion(interaction.options.getString("id"))) {
