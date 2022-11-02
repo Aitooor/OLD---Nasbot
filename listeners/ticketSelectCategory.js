@@ -166,7 +166,7 @@ module.exports = async (client, interaction, language) => {
 
     if(language === "ES") {
 
-        if(tickets.antispam.max_tickets_per_user >= ticketCount) {
+        if(tickets.antispam.max_tickets_per_user <= ticketCount) {
             return await interaction.editReply({
                 embeds: [
                     tickets.messages.max_tickets
@@ -178,7 +178,7 @@ module.exports = async (client, interaction, language) => {
 
     } else {
 
-        if(ticketsEn.antispam.max_tickets_per_user >= ticketCount) {
+        if(ticketsEn.antispam.max_tickets_per_user <= ticketCount) {
             return await interaction.editReply({
                 embeds: [
                     ticketsEn.messages.max_tickets
