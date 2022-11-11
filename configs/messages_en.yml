@@ -19,13 +19,13 @@ announce:
   description: "Announces sent"
   color: 16101959
 info:
-  description: "INFO:\nIP:...\nTIENDA:...\nDISCORD:...."
+  description: "INFO:\nIP: nasgar.online\nTIENDA: https://nasgar.online/shop\nDISCORD: https://ds.nasgar.online"
   color: 16101959
 ip:
-  description: "IP: ..."
+  description: "IP: nasgar.online"
   color: 16101959
 invite:
-  description: "INVITE: ..."
+  description: "INVITE: https://ds.nasgar.online"
   color: 16101959
 nick:
   description: "Your nickname is now `%nick%`"
