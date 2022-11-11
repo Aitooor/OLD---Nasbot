@@ -9,31 +9,31 @@ module.exports = async (client, interaction, language) => {
 
     switch(language) {
         case "ES":
-            await interaction.member.roles.add(config.verificacion.es_rol)
+            await interaction.member.roles.add(config.verification.es_rol)
             cnf = {
                 a: messages.verification,
-                b: config.verificacion.button_verify_es.label,
-                c: config.verificacion.button_verify_es.emoji,
-                d: config.verificacion.button_verify_es.color
+                b: config.verification.button_verify_es.label,
+                c: config.verification.button_verify_es.emoji,
+                d: config.verification.button_verify_es.color
             }
             break;
         case "EN":
-            await interaction.member.roles.add(config.verificacion.en_rol)
+            await interaction.member.roles.add(config.verification.en_rol)
             cnf = {
                 a: messagesEn.verification,
-                b: config.verificacion.button_verify_en.label,
-                c: config.verificacion.button_verify_en.emoji,
-                d: config.verificacion.button_verify_en.color
+                b: config.verification.button_verify_en.label,
+                c: config.verification.button_verify_en.emoji,
+                d: config.verification.button_verify_en.color
             }
             break;
         case "ESN":
-            await interaction.member.roles.add(config.verificacion.es_rol)
-            await interaction.member.roles.add(config.verificacion.en_rol)
+            await interaction.member.roles.add(config.verification.es_rol)
+            await interaction.member.roles.add(config.verification.en_rol)
             cnf = {
                 a: messagesEn.verification,
-                b: config.verificacion.button_verify_en.label,
-                c: config.verificacion.button_verify_en.emoji,
-                d: config.verificacion.button_verify_en.color
+                b: config.verification.button_verify_en.label,
+                c: config.verification.button_verify_en.emoji,
+                d: config.verification.button_verify_en.color
             }
             break;
     }
