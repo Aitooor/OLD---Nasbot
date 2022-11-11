@@ -56,18 +56,18 @@ module.exports = async (client, interaction) => {
             await client.emit("ticketDelete", interaction)
             break;
         case "es":
-            await interaction.member.roles.add(config.verificacion.es_rol);
-            await interaction.member.roles.remove(config.verificacion.en_rol);
+            await interaction.member.roles.add(config.verification.es_rol);
+            await interaction.member.roles.remove(config.verification.en_rol);
             await interaction.deferUpdate();
             break;
         case "en": 
-            await interaction.member.roles.remove(config.verificacion.es_rol);
-            await interaction.member.roles.add(config.verificacion.en_rol);
+            await interaction.member.roles.remove(config.verification.es_rol);
+            await interaction.member.roles.add(config.verification.en_rol);
             await interaction.deferUpdate();
             break;
         case "esn":
-            await interaction.member.roles.add(config.verificacion.es_rol);
-            await interaction.member.roles.add(config.verificacion.en_rol);
+            await interaction.member.roles.add(config.verification.es_rol);
+            await interaction.member.roles.add(config.verification.en_rol);
             await interaction.deferUpdate();
             break;
     }
