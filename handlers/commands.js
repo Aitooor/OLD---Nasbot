@@ -60,6 +60,7 @@ client.on("ready", async () => {
       (async () => {
           try {
             await rest.put(Routes.applicationGuildCommands(client.user.id, config.serverId), { body: comandos } );
+            await rest.put(Routes.applicationCommands(client.user.id), { body: [] })
              log("Slash commands cargados")
           } catch(e) {
               error("Hubo un error al cargar uno o varios comandos. Stacktrace:")
