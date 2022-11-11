@@ -4,7 +4,7 @@ module.exports = async (client, interaction) => {
 
     await interaction.deferUpdate()
 
-    for (const rol of config.verificacion.verified_roles) {
+    for (const rol of config.verification.verified_roles) {
         await interaction.member.roles.add(rol)
     }
 
