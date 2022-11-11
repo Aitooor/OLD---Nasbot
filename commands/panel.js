@@ -45,17 +45,17 @@ module.exports = {
                     new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                        .setLabel(config.verificacion.button_es.label)
+                        .setLabel(config.verification.button_es.label)
                         .setCustomId("verifyES")
-                        .setStyle(config.verificacion.button_es.color),
+                        .setStyle(config.verification.button_es.color),
                         new ButtonBuilder()
-                        .setLabel(config.verificacion.button_en.label)
+                        .setLabel(config.verification.button_en.label)
                         .setCustomId("verifyEN")
-                        .setStyle(config.verificacion.button_en.color),
+                        .setStyle(config.verification.button_en.color),
                         new ButtonBuilder()
-                        .setLabel(config.verificacion.button_esn.label)
+                        .setLabel(config.verification.button_esn.label)
                         .setCustomId("verifyESN")
-                        .setStyle(config.verificacion.button_esn.color)
+                        .setStyle(config.verification.button_esn.color)
                     )
                 ]
             })
@@ -112,17 +112,17 @@ module.exports = {
                     new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                        .setLabel(config.verificacion.button_es.label)
+                        .setLabel(config.verification.button_es.label)
                         .setCustomId("es")
-                        .setStyle(config.verificacion.button_es.color),
+                        .setStyle(config.verification.button_es.color),
                         new ButtonBuilder()
-                        .setLabel(config.verificacion.button_en.label)
+                        .setLabel(config.verification.button_en.label)
                         .setCustomId("en")
-                        .setStyle(config.verificacion.button_en.color),
+                        .setStyle(config.verification.button_en.color),
                         new ButtonBuilder()
-                        .setLabel(config.verificacion.button_esn.label)
+                        .setLabel(config.verification.button_esn.label)
                         .setCustomId("esn")
-                        .setStyle(config.verificacion.button_esn.color)
+                        .setStyle(config.verification.button_esn.color)
                     )
                 ]
             })
