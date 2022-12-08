@@ -9,10 +9,10 @@ module.exports = {
         .setDescription("Sorteos")
         .addSubcommand(s => s
             .setName("start")
-            .setDescription(config.commands.giveaway_start.es)
+            .setDescription(config.commands["giveaway start"].es)
             .setDescriptionLocalizations({
-                EnglishUS: config.commands.giveaway_start.en,
-                EnglishGB: config.commands.giveaway_start.en
+                EnglishUS: config.commands["giveaway start"].en,
+                EnglishGB: config.commands["giveaway start"].en
             })
             .addChannelOption(option => option
                 .setName("canal")
@@ -32,10 +32,10 @@ module.exports = {
                 .setRequired(true)))
         .addSubcommand(s => s
             .setName("end")
-            .setDescription(config.commands.giveaway_end.es)
+            .setDescription(config.commands["giveaway end"].es)
             .setDescriptionLocalizations({
-                EnglishUS: config.commands.giveaway_end.en,
-                EnglishGB: config.commands.giveaway_end.en
+                EnglishUS: config.commands["giveaway end"].en,
+                EnglishGB: config.commands["giveaway end"].en
             })
             .addStringOption(option => option
                 .setName("id")
@@ -43,10 +43,10 @@ module.exports = {
                 .setRequired(true)))
         .addSubcommand(s => s
             .setName("reroll")
-            .setDescription(config.commands.giveaway_reroll.es)
+            .setDescription(config.commands["giveaway reroll"].es)
             .setDescriptionLocalizations({
-                EnglishUS: config.commands.giveaway_reroll.en,
-                EnglishGB: config.commands.giveaway_reroll.en
+                EnglishUS: config.commands["giveaway reroll"].en,
+                EnglishGB: config.commands["giveaway reroll"].en
             })
             .addStringOption(option => option
                 .setName("id")
