@@ -5,10 +5,10 @@ const { checkLanguage } = require("../utils/messages.js")
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('voice')
-        .setDescription(config.commands["ticket-voice"].es)
+        .setDescription(config.commands.voice.es)
         .setDescriptionLocalizations({
-            EnglishUS: config.commands["ticket-voice"].en,
-            EnglishGB: config.commands["ticket-voice"].en
+            EnglishUS: config.commands.voice.en,
+            EnglishGB: config.commands.voice.en
         }),
     async execute(interaction) {
 
