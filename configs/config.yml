@@ -248,17 +248,17 @@ commands:
     en: "Unmute an user"
     rol:
       - "659579747528867840"
-  giveaway_start:
+  giveaway start:
     es: "Inicia un sorteo"
     en: "Starts a giveaway"
     rol:
       - "659579747528867840"
-  giveaway_end:
+  giveaway end:
     es: "Acaba un sorteo"
     en: "Forcibbly ends a giveaway"
     rol:
       - "659579747528867840"
-  giveaway_reroll:
+  giveaway reroll:
     es: "Elige nuevos ganadores para un sorteo"
     en: "Randomly choose new winners"
     rol:
@@ -273,12 +273,12 @@ commands:
     en: "Setup messages"
     rol:
       - "659579740436299786"
-  voice:
+  ticket-voice:
     es: "Crea un ticket de voz"
     en: "Create a new voice ticket"
     rol:
       - "659579740436299786"
-  close_voice:
+  close-voice:
     es: "Cierra un ticket de voz"
     en: "Delete a voice ticket"
     rol:
