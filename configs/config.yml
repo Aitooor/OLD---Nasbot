@@ -273,7 +273,7 @@ commands:
     en: "Setup messages"
     rol:
       - "659579740436299786"
-  ticket-voice:
+  voice:
     es: "Crea un ticket de voz"
     en: "Create a new voice ticket"
     rol:
