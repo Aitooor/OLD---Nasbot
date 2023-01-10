@@ -132,7 +132,7 @@ commands:
     es: "Haz que el bot diga lo que quieras." #Descripción del comando en español
     en: "Make the bot say something" #Descripción del comando en inglés
     rol:
-      - "659579747528867840" #Rol requerido para usar el comando
+      - "659579740436299786" #Rol requerido para usar el comando
   avatar:
     es: "Muestra tu avatar o el de otro usuario."
     en: "Shows your or another user 's avatar"
@@ -147,7 +147,7 @@ commands:
     es: "Envía un anuncio a ambos canales."
     en: "Sends an announce"
     rol:
-      - "659579747528867840"
+      - "659579740436299786"
   info:
     es: "Muestra información del servidor."
     en: "Shows server info"
@@ -187,7 +187,7 @@ commands:
     es: "Establece el slowmode en un canal"
     en: "Set the slowmode time on a channel"
     rol:
-      - "659579747528867840"
+      - "659579740436299786"
   flipcoin:
     es: "Obtiene un resultado aleatorio entre cara y cruz"
     en: "Face or cross"
