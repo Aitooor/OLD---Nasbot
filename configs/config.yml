@@ -13,10 +13,17 @@ announce:
 
 poll:
 #Canal de encuestas en español
-  es: "745488851904102450"
+  es: "1016023164754608188"
 #Canal de encuestas en inglés
-  en: "971586942280019998"
+  en: "1016023164754608188"
+#Canal donde se envian las encuestas a revision
+  review_channel_es: "1016023164754608188"
+  review_channel_en: "1016023164754608188"
 
+#Canal donde se envian las encuestas aceptadas
+  accepted_channel_es: "1016023164754608188"
+  accepted_channel_en: "1016023164754608188"
+  votes_until_review: 10
 lock_unlock:
 #Roles que se les quita/agrega permiso de hablar
   roles:
@@ -298,3 +305,7 @@ commands:
     en: "Admin decrease"
     rol:
       - "659579740436299786"
+  acceptpoll:
+    es: "Acepta una votación"
+    en: "Accepts a poll"
+    rol: "921445728189030401"

@@ -1,5 +1,7 @@
-const { SlashCommandBuilder } = require("discord.js")
-const { config, messages, messagesEn } = require("../index.js")
+const { SlashCommandBuilder } = require("discord.js");
+const { database } = require("../database/database.js");
+const { config, messages, messagesEn } = require("../index.js");
+const { error } = require("../logs.js");
 const { checkLanguage } = require("../utils/messages.js")
 
 module.exports = {
@@ -48,7 +50,7 @@ module.exports = {
         :
         embeds = {
             a: messagesEn.poll_sent,
-            b: messagesEn.error 
+            b: messagesEn.error
         };
 
     try {
@@ -57,14 +59,26 @@ module.exports = {
             await channel.send({
                 embeds: [
                     JSON.parse(JSON.stringify(messages.poll)
-                    .replace("%tab%", "\n")
-                    .replace("%desc%", interaction.options.getString("desc_es"))
-                    .replace("%1%", interaction.options.getString("opcion_1"))
-                    .replace("%2%", interaction.options.getString("opcion_2")))
+                    .replaceAll("%tab%", "\n")
+                    .replaceAll("%desc%", interaction.options.getString("desc_es"))
+                    .replaceAll("%1%", interaction.options.getString("opcion_1"))
+                    .replaceAll("%2%", interaction.options.getString("opcion_2")))
                 ]
             }).then(async (message) => {
                 await message.react("1️⃣")
                 await message.react("2️⃣")
+
+                await database.set(`poll_${message.id}`, {
+                    messageId: message.id,
+                    description: interaction.options.getString("desc_es"),
+                    options: [
+                        interaction.options.getString("opcion_1"),
+                        interaction.options.getString("opcion_2")
+                    ],
+                    authorId: interaction.member.id,
+                    authorTag: interaction.user.tag,
+                    language: "ES"
+                })
             })
         })
         await interaction.guild.channels.fetch(config.poll.en)
@@ -72,14 +86,25 @@ module.exports = {
             await channel.send({
                 embeds: [
                     JSON.parse(JSON.stringify(messagesEn.poll)
-                    .replace("%tab%", "\n")
-                    .replace("%desc%", interaction.options.getString("desc_en"))
-                    .replace("%1%", interaction.options.getString("opcion_1"))
-                    .replace("%2%", interaction.options.getString("opcion_2")))
+                    .replaceAll("%tab%", "\n")
+                    .replaceAll("%desc%", interaction.options.getString("desc_en"))
+                    .replaceAll("%1%", interaction.options.getString("option_1"))
+                    .replaceAll("%2%", interaction.options.getString("option_2")))
                 ]
             }).then(async (message) => {
                 await message.react("1️⃣")
                 await message.react("2️⃣")
+                await database.set(`poll_${message.id}`, {
+                    messageId: message.id,
+                    description: interaction.options.getString("desc_en"),
+                    options: [
+                        interaction.options.getString("option_1"),
+                        interaction.options.getString("option_2")
+                    ],
+                    authorId: interaction.member.id,
+                    authorTag: interaction.user.tag,
+                    language: "EN"
+                })
             })
         })
         await interaction.editReply({

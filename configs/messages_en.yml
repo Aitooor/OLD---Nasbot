@@ -196,3 +196,21 @@ decrease:
 alr_decrease:
   description: "There is nothing to decrease"
   color: 16101959
+accepted_poll:
+  description: "Poll accepted, sending messages..."
+  color: 16101959
+
+accepted_poll_embed:
+  title: "NEW POLL ACCEPTED"
+  description: "Started by %user%"
+  fields:
+    - name: "Description"
+      value: "%description%"
+      inline: false
+    - name: "Option 1"
+      value: "%1%"
+      inline: false
+    - name: "Option 2"
+      value: "%2%"
+      inline: false
+  color: 16101959

@@ -199,3 +199,21 @@ decrease:
 alr_decrease:
   description: "El ticket no está en el nivel rise"
   color: 16101959
+accepted_poll:
+  description: "Poll aceptada, enviando mensajes..."
+  color: 16101959
+
+accepted_poll_embed:
+  title: "NUEVA ENCUESTA ACEPTADA"
+  description: "Empezada por %user%"
+  fields:
+    - name: "Descripción"
+      value: "%description%"
+      inline: false
+    - name: "Opción 1"
+      value: "%1%"
+      inline: false
+    - name: "Opción 2"
+      value: "%2%"
+      inline: false
+  color: 16101959
