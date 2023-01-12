@@ -13,9 +13,9 @@ announce:
 
 poll:
 #Canal de encuestas en español
-  es: "1016023164754608188"
+  es: "745488851904102450"
 #Canal de encuestas en inglés
-  en: "1016023164754608188"
+  en: "971586942280019998"
 #Canal donde se envian las encuestas a revision
   review_channel_es: "1016023164754608188"
   review_channel_en: "1016023164754608188"
