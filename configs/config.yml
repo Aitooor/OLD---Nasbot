@@ -17,13 +17,13 @@ poll:
 #Canal de encuestas en inglés
   en: "971586942280019998"
 #Canal donde se envian las encuestas a revision
-  review_channel_es: "1016023164754608188"
-  review_channel_en: "1016023164754608188"
+  review_channel_es: "998733623849136198"
+  review_channel_en: "998733623849136198"
 
 #Canal donde se envian las encuestas aceptadas
-  accepted_channel_es: "1016023164754608188"
-  accepted_channel_en: "1016023164754608188"
-  votes_until_review: 10
+  accepted_channel_es: "998733855714459779"
+  accepted_channel_en: "998733855714459779"
+  votes_until_review: 20
 lock_unlock:
 #Roles que se les quita/agrega permiso de hablar
   roles:
@@ -77,7 +77,7 @@ suggestionsEs:
     up: "✅"
     down: "❌"
 #Cantidad de votos que debe tener la sugerencia antes de ser enviada a revisión
-  votes_until_review: 40
+  votes_until_review: 30
 
 suggestionsEn:
 #Lo de arriba pero en inglés
@@ -88,7 +88,7 @@ suggestionsEn:
   reactions:
     up: "✅"
     down: "❌"
-  votes_until_review: 40
+  votes_until_review: 30
 
 
 verification:
