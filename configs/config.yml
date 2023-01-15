@@ -308,4 +308,5 @@ commands:
   acceptpoll:
     es: "Acepta una votación"
     en: "Accepts a poll"
-    rol: "659579740436299786"
+    rol:
+      - "659579740436299786"
