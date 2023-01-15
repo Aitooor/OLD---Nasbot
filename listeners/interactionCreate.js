@@ -70,5 +70,13 @@ module.exports = async (client, interaction) => {
             await interaction.member.roles.add(config.verification.en_rol);
             await interaction.deferUpdate();
             break;
+        case "accept_suggestion":
+        case "deny_suggestion":
+            await client.emit("suggestionReviewed", interaction, interaction.customId === "accept_suggestion" ? "ACCEPTED" : "DENIED")
+            break;
+        case "accept_poll":
+        case "deny_poll":
+            await client.emit("pollReviewed", interaction, interaction.customId === "accept_poll" ? "ACCEPTED" : "DENIED")
+            break;
     }
 }

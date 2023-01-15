@@ -78,6 +78,8 @@ suggestionsEs:
     down: "❌"
 #Cantidad de votos que debe tener la sugerencia antes de ser enviada a revisión
   votes_until_review: 1
+  buttonAccept: "Aceptar"
+  buttonDeny: "Denegar"
 
 suggestionsEn:
 #Lo de arriba pero en inglés
@@ -89,6 +91,8 @@ suggestionsEn:
     up: "✅"
     down: "❌"
   votes_until_review: 1
+  buttonAccept: "Accept"
+  buttonDeny: "Deny"
 
 
 verification:

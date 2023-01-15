@@ -3,31 +3,31 @@ const { database } = require("../database/database.js")
 
 module.exports = async (client, reaction, language) => {
 
-  if(reaction.partial) {
-	try {
-		await reaction.fetch();
-	} catch (e) {
-		return;
-	}
-  }
-
-  if(language === "ES") {
-    cnf = {
-        a: config.suggestionsEs.reactions.down,
-        b: config.suggestionsEs.reactions.up,
-        c: config.suggestionsEs.votes_until_review,
-        d: config.suggestionsEs.review_channel
+    if(reaction.partial) {
+	    try {
+		    await reaction.fetch();
+	    } catch (e) {
+		    return;
+	    }
     }
-  } else {
-    cnf = {
-        a: config.suggestionsEn.reactions.down,
-        b: config.suggestionsEn.reactions.up,
-        c: config.suggestionsEn.votes_until_review,
-        d: config.suggestionsEn.review_channel
-    }
-  }
 
-  if(!reaction.message.reactions.cache.get(cnf.a)) return;
+    if(language === "ES") {
+        cnf = {
+            a: config.suggestionsEs.reactions.down,
+            b: config.suggestionsEs.reactions.up,
+            c: config.suggestionsEs.votes_until_review,
+            d: config.suggestionsEs.review_channel
+        }
+    } else {
+        cnf = {
+            a: config.suggestionsEn.reactions.down,
+            b: config.suggestionsEn.reactions.up,
+            c: config.suggestionsEn.votes_until_review,
+            d: config.suggestionsEn.review_channel
+        }
+    }
+
+    if(!reaction.message.reactions.cache.get(cnf.a)) return;
 
     const votos = (reaction.message.reactions.cache.get(cnf.b).count) + (reaction.message.reactions.cache.get(cnf.a).count);
 
