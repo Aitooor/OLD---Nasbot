@@ -189,7 +189,7 @@ commands:
     es: "Elimina una cantidad de mensajes de un canal"
     en: "Deletes some messages on the channel"
     rol:
-      - "659579747528867840"
+      - "659579740436299786"
   setdelay:
     es: "Establece el slowmode en un canal"
     en: "Set the slowmode time on a channel"
