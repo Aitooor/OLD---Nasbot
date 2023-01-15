@@ -23,7 +23,7 @@ poll:
 #Canal donde se envian las encuestas aceptadas
   accepted_channel_es: "998733855714459779"
   accepted_channel_en: "998733855714459779"
-  votes_until_review: 20
+  votes_until_review: 1
 lock_unlock:
 #Roles que se les quita/agrega permiso de hablar
   roles:
@@ -77,7 +77,7 @@ suggestionsEs:
     up: "✅"
     down: "❌"
 #Cantidad de votos que debe tener la sugerencia antes de ser enviada a revisión
-  votes_until_review: 30
+  votes_until_review: 1
 
 suggestionsEn:
 #Lo de arriba pero en inglés
@@ -88,7 +88,7 @@ suggestionsEn:
   reactions:
     up: "✅"
     down: "❌"
-  votes_until_review: 30
+  votes_until_review: 1
 
 
 verification:
